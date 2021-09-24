@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+:root{
+    --center: center;
+    --width: 200px;
+    --height: 200px;
+    --font: 'Bonheur Royale', cursive;
+    --font2: 'Raleway', sans-serif;
+    --fonts: 25px;
+    --auto: auto;
+    --border: 1px solid black;
+    --warnatb: rgb(241, 14, 14);
+    --warnatx: white;
+}
+body{
+    background-color: rgb(0, 191, 255);
+}
+.foto1{
+    text-align: var(--center);
+}
+.foto2{
+    width: var(--width);
+    height: var(--height);
+    margin:0%;
+    border-radius: 50%;
+}
+.judul{
+    text-align: var(--center);
+    font-size: var(--fonts);
+    font-family: var(--font);
+}
+.bagian-isi{
+    text-align: var(--center);
+    font-family: var(--font2);
+}
+.sekolah{
+    text-align: var(--center);
+    font-size: var(--fonts);
+    font-family: var(--font);
+}
+.tabel{
+    margin-left: var(--auto);
+    margin-right: var(--auto);
+    border: var(--border);
+    background-color: black;
+}
+.table, th, td{
+    border: var(--border)
+}
+.tabel-kepala{
+    background-color: rgb(228, 170, 11);
+    color:var(--warnatx);
+    font-family: var(--font2);
+}
+.tabel-leher{
+    background-color: var(--warnatb);
+    color:var(--warnatx);
+    font-family: var(--font2);
+}.tabel-badan{
+    background-color: var(--warnatb);
+    color:var(--warnatx);
+    font-family: var(--font2);
+}
+.tabel-kaki{
+    background-color: var(--warnatb);
+    color:var(--warnatx);
+    font-family: var(--font2);
+}
+.inspirasi{
+    text-align: var(--center);
+    font-size: var(--fonts);
+    font-family: var(--font);
+}
+.parent{
+    text-align: var(--center);
+}
+ul{
+    display: inline-block; 
+	text-align: left; 
+}
