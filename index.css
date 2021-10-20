@@ -67,6 +67,11 @@ body{
     color:var(--warnatx);
     font-family: var(--font2);
 }
+.Kemampuan{
+    text-align: var(--center);
+    font-size: var(--fonts);
+    font-family: var(--font);
+}
 .inspirasi{
     text-align: var(--center);
     font-size: var(--fonts);
